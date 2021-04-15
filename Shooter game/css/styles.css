@@ -1,0 +1,143 @@
+body{
+    background-color: black;
+    margin:none;
+    font-family:fantasy;
+    letter-spacing: 2px;;
+}
+
+div.container{
+    width:70%;
+    height:550px ;
+    margin:auto;
+    margin-top:80px;
+    background-image: url("image1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom:50px;
+}
+div.intro{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.description{
+    margin-top:20px;
+}
+h1{
+    color:blanchedalmond;
+    margin-bottom:50px;
+    font-size: 40px;
+}
+.start{
+    padding-top: 150px;}
+
+div{
+    display:block;
+    text-align: center;
+}
+
+button{
+    padding:20px;
+    font-size: 20px;
+    font-family:fantasy;
+    letter-spacing: 2px;
+    background-color: rgba(91, 15, 177, 0.836);
+    color:blanchedalmond;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.gamespace{
+    cursor:url("aimcursor.png") 10 3, auto;
+
+}
+#gameicon{
+    width:100px;
+    height:100px;
+    position:absolute; 
+   top:300px;
+   left:300px;
+   cursor:url("aimcursor.png") 10 3, auto;
+
+}
+.description{
+    color:blanchedalmond;
+    font-size:25px;
+    
+}
+hr{
+    width:180px;
+    height:5px;
+    background-color:blanchedalmond;
+    border:2px solid blanchedalmond;
+    border-radius: 5px;
+}
+
+.showoptions{
+    display:flex;
+    justify-content: space-between;
+    margin-top:450px;  
+    margin-left:20px;
+    margin-right:20px; 
+
+}
+.quit{
+    padding:5px;
+}
+.health{
+    display: flex;
+}
+
+#countdown-container {
+    display: inline-block; /*displays divs on a line*/
+    width: 100px; /*gives the div element a width of 300px*/ /*gives 20px space at the top and bottom of the div element*/
+    border-radius: 5px; /*curves the edges of the div element by 5px;*/
+    background:rgba(91, 15, 177, 0.836) ; /*gives the div element a background color*/
+}
+#countdown {
+    display: inline-block; /*displays divs on a line*/
+    padding: 10px; /*creates 30px space between the content of the div element and the walls of the div element*/
+    background: rgba(91, 15, 177, 0.836);
+    color:blanchedalmond; /*changes the text color in the div element*/
+}
+
+#countdown span {
+    font-weight: bold; /*boldens text in the span element*/
+    font-size: 15px; /*changes the text size in the span element*/
+}
+
+.scoreandtime{
+    display:flex;
+    justify-content: space-between;
+    font-size: 25px;
+    color:blanchedalmond;
+    margin-left:20px;
+    margin-right:20px;
+
+}
+
+
+.gamewin{
+    font-size: 25px;
+    color:blanchedalmond;
+    text-align:center;
+    align-items: center;
+    padding-top:100px;
+}
+
+.declare{
+    padding-top:100px;
+}
+
+.gamelose{
+    font-size: 25px;
+    color:blanchedalmond;
+    text-align:center;
+    align-items: center;
+    padding-top:100px;
+}
+
+.back{
+    margin-top:50px;
+}
+

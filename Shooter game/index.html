@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space shooter</title>
+    <<script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+<body>
+    <div class="container">
+    
+
+       <!-- //////////// start page /////////// -->
+       <div class="intro">
+           <div class="human">
+               <img src="images/human.png" alt="">
+           </div>
+
+           <div class="start">
+    
+               <h1>Space Shooters</h1>
+               <button class="startgame">Start Game!</button>
+           </div>
+        
+
+           <div class="alien">
+               <img src="images/alien4.png" alt="">
+           </div>
+
+        </div>
+        
+        <div class="description">
+        Hit atleast 20 aliens to win in 2 mins. Evey hit to human decreases health.
+        </div> 
+        
+       
+
+        <!-- //////////*alien image*//////// -->
+        <div class="game">
+            <img src="images/alien4.png" alt="" id="gameicon">
+            <!-- <img src="images/human.png" alt="" class="gamehuman"> -->
+        </div>
+        
+
+
+        <!-- //////////// gamespace ////////// -->
+        <div class="gamespace">
+
+            <div class="scoreandtime">
+                <div class="score">
+                    0/20
+                </div>
+    
+                <div id="countdown-container">
+                    <div id="countdown">
+                        <span id="minutes"></span> : <span id="seconds"></span>
+                    </div>
+    
+                </div>
+            </div>
+    
+           <div class="showoptions">
+               <div class="health">
+                <span>&#129293;</span>
+                <hr>  
+               </div>
+               
+               <div class="quit">
+                   <button class="quit">Quit</button>
+               </div>
+            </div>
+           
+        </div>
+
+
+        <div class="gamewin">
+            <div class="details">
+                GameOver
+            </div>
+            <div class="yourscore">
+            </div>
+            <div class="declare">
+                Congratulations You Win
+            </div>
+            <div class="back">
+                <button>Back To Game</button>
+            </div>
+            
+        </div>
+
+        <div class="gamelose">
+            <div class="details">
+                GameOver
+            </div>
+            <div class="yourscore">
+            </div>
+            <div class="declare">
+                Sorry! You lose.
+            </div>
+            <div class="back">
+                <button>Back To Game</button>
+            </div>
+            
+        </div>
+
+    </div>
+
+    
+
+</body>
+</html>
